@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28AE258F2A12FB4D001E0DD5 /* GloomhavenMonsterDeck Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 28AE258E2A12FB4D001E0DD5 /* GloomhavenMonsterDeck Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		28AE25942A12FB4D001E0DD5 /* GloomhavenMonsterDeckApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AE25932A12FB4D001E0DD5 /* GloomhavenMonsterDeckApp.swift */; };
+		28AE25962A12FB4D001E0DD5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AE25952A12FB4D001E0DD5 /* ContentView.swift */; };
+		28AE25982A12FB4F001E0DD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28AE25972A12FB4F001E0DD5 /* Assets.xcassets */; };
+		28AE259B2A12FB4F001E0DD5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28AE259A2A12FB4F001E0DD5 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28AE25902A12FB4D001E0DD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28AE25822A12FB4D001E0DD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28AE258D2A12FB4D001E0DD5;
+			remoteInfo = "GloomhavenMonsterDeck Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		28AE25A12A12FB4F001E0DD5 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				28AE258F2A12FB4D001E0DD5 /* GloomhavenMonsterDeck Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		28AE25882A12FB4D001E0DD5 /* GloomhavenMonsterDeck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GloomhavenMonsterDeck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28AE258E2A12FB4D001E0DD5 /* GloomhavenMonsterDeck Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GloomhavenMonsterDeck Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28AE25932A12FB4D001E0DD5 /* GloomhavenMonsterDeckApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GloomhavenMonsterDeckApp.swift; sourceTree = "<group>"; };
+		28AE25952A12FB4D001E0DD5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		28AE25972A12FB4F001E0DD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28AE259A2A12FB4F001E0DD5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28AE258B2A12FB4D001E0DD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28AE25812A12FB4D001E0DD5 = {
+			isa = PBXGroup;
+			children = (
+				28AE25922A12FB4D001E0DD5 /* GloomhavenMonsterDeck Watch App */,
+				28AE25892A12FB4D001E0DD5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28AE25892A12FB4D001E0DD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28AE25882A12FB4D001E0DD5 /* GloomhavenMonsterDeck.app */,
+				28AE258E2A12FB4D001E0DD5 /* GloomhavenMonsterDeck Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28AE25922A12FB4D001E0DD5 /* GloomhavenMonsterDeck Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				28AE25932A12FB4D001E0DD5 /* GloomhavenMonsterDeckApp.swift */,
+				28AE25952A12FB4D001E0DD5 /* ContentView.swift */,
+				28AE25972A12FB4F001E0DD5 /* Assets.xcassets */,
+				28AE25992A12FB4F001E0DD5 /* Preview Content */,
+			);
+			path = "GloomhavenMonsterDeck Watch App";
+			sourceTree = "<group>";
+		};
+		28AE25992A12FB4F001E0DD5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				28AE259A2A12FB4F001E0DD5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28AE25872A12FB4D001E0DD5 /* GloomhavenMonsterDeck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28AE25A22A12FB4F001E0DD5 /* Build configuration list for PBXNativeTarget "GloomhavenMonsterDeck" */;
+			buildPhases = (
+				28AE25862A12FB4D001E0DD5 /* Resources */,
+				28AE25A12A12FB4F001E0DD5 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28AE25912A12FB4D001E0DD5 /* PBXTargetDependency */,
+			);
+			name = GloomhavenMonsterDeck;
+			productName = GloomhavenMonsterDeck;
+			productReference = 28AE25882A12FB4D001E0DD5 /* GloomhavenMonsterDeck.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		28AE258D2A12FB4D001E0DD5 /* GloomhavenMonsterDeck Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28AE259E2A12FB4F001E0DD5 /* Build configuration list for PBXNativeTarget "GloomhavenMonsterDeck Watch App" */;
+			buildPhases = (
+				28AE258A2A12FB4D001E0DD5 /* Sources */,
+				28AE258B2A12FB4D001E0DD5 /* Frameworks */,
+				28AE258C2A12FB4D001E0DD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GloomhavenMonsterDeck Watch App";
+			productName = "GloomhavenMonsterDeck Watch App";
+			productReference = 28AE258E2A12FB4D001E0DD5 /* GloomhavenMonsterDeck Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28AE25822A12FB4D001E0DD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					28AE25872A12FB4D001E0DD5 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					28AE258D2A12FB4D001E0DD5 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 28AE25852A12FB4D001E0DD5 /* Build configuration list for PBXProject "GloomhavenMonsterDeck" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28AE25812A12FB4D001E0DD5;
+			productRefGroup = 28AE25892A12FB4D001E0DD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28AE25872A12FB4D001E0DD5 /* GloomhavenMonsterDeck */,
+				28AE258D2A12FB4D001E0DD5 /* GloomhavenMonsterDeck Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28AE25862A12FB4D001E0DD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28AE258C2A12FB4D001E0DD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AE259B2A12FB4F001E0DD5 /* Preview Assets.xcassets in Resources */,
+				28AE25982A12FB4F001E0DD5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28AE258A2A12FB4D001E0DD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AE25962A12FB4D001E0DD5 /* ContentView.swift in Sources */,
+				28AE25942A12FB4D001E0DD5 /* GloomhavenMonsterDeckApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28AE25912A12FB4D001E0DD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28AE258D2A12FB4D001E0DD5 /* GloomhavenMonsterDeck Watch App */;
+			targetProxy = 28AE25902A12FB4D001E0DD5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		28AE259C2A12FB4F001E0DD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		28AE259D2A12FB4F001E0DD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		28AE259F2A12FB4F001E0DD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GloomhavenMonsterDeck Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 3462F82DTX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = GloomhavenMonsterDeck;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Eken.GloomhavenMonsterDeck.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		28AE25A02A12FB4F001E0DD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GloomhavenMonsterDeck Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 3462F82DTX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = GloomhavenMonsterDeck;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Eken.GloomhavenMonsterDeck.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		28AE25A32A12FB4F001E0DD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3462F82DTX;
+				INFOPLIST_KEY_CFBundleDisplayName = GloomhavenMonsterDeck;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Eken.GloomhavenMonsterDeck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		28AE25A42A12FB4F001E0DD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3462F82DTX;
+				INFOPLIST_KEY_CFBundleDisplayName = GloomhavenMonsterDeck;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Eken.GloomhavenMonsterDeck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28AE25852A12FB4D001E0DD5 /* Build configuration list for PBXProject "GloomhavenMonsterDeck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28AE259C2A12FB4F001E0DD5 /* Debug */,
+				28AE259D2A12FB4F001E0DD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28AE259E2A12FB4F001E0DD5 /* Build configuration list for PBXNativeTarget "GloomhavenMonsterDeck Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28AE259F2A12FB4F001E0DD5 /* Debug */,
+				28AE25A02A12FB4F001E0DD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28AE25A22A12FB4F001E0DD5 /* Build configuration list for PBXNativeTarget "GloomhavenMonsterDeck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28AE25A32A12FB4F001E0DD5 /* Debug */,
+				28AE25A42A12FB4F001E0DD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28AE25822A12FB4D001E0DD5 /* Project object */;
+}

@@ -12,6 +12,9 @@
 		28AE25962A12FB4D001E0DD5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AE25952A12FB4D001E0DD5 /* ContentView.swift */; };
 		28AE25982A12FB4F001E0DD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28AE25972A12FB4F001E0DD5 /* Assets.xcassets */; };
 		28AE259B2A12FB4F001E0DD5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28AE259A2A12FB4F001E0DD5 /* Preview Assets.xcassets */; };
+		28AE25A62A1302ED001E0DD5 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AE25A52A1302ED001E0DD5 /* Deck.swift */; };
+		28AE25A82A130498001E0DD5 /* DeckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AE25A72A130498001E0DD5 /* DeckView.swift */; };
+		28E309162A143676003198C1 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E309152A143676003198C1 /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		28AE25952A12FB4D001E0DD5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		28AE25972A12FB4F001E0DD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28AE259A2A12FB4F001E0DD5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		28AE25A52A1302ED001E0DD5 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		28AE25A72A130498001E0DD5 /* DeckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckView.swift; sourceTree = "<group>"; };
+		28E309152A143676003198C1 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +85,10 @@
 			isa = PBXGroup;
 			children = (
 				28AE25932A12FB4D001E0DD5 /* GloomhavenMonsterDeckApp.swift */,
+				28AE25A52A1302ED001E0DD5 /* Deck.swift */,
 				28AE25952A12FB4D001E0DD5 /* ContentView.swift */,
+				28E309152A143676003198C1 /* MenuView.swift */,
+				28AE25A72A130498001E0DD5 /* DeckView.swift */,
 				28AE25972A12FB4F001E0DD5 /* Assets.xcassets */,
 				28AE25992A12FB4F001E0DD5 /* Preview Content */,
 			);
@@ -192,8 +201,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28E309162A143676003198C1 /* MenuView.swift in Sources */,
+				28AE25A62A1302ED001E0DD5 /* Deck.swift in Sources */,
 				28AE25962A12FB4D001E0DD5 /* ContentView.swift in Sources */,
 				28AE25942A12FB4D001E0DD5 /* GloomhavenMonsterDeckApp.swift in Sources */,
+				28AE25A82A130498001E0DD5 /* DeckView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +273,8 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = watchos;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -312,6 +326,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				SDKROOT = watchos;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
@@ -322,6 +338,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GloomhavenMonsterDeck Watch App/Preview Content\"";
@@ -343,7 +360,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Debug;
 		};
@@ -352,6 +369,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GloomhavenMonsterDeck Watch App/Preview Content\"";
@@ -374,7 +392,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Release;
 		};
@@ -390,7 +408,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Eken.GloomhavenMonsterDeck;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Debug;
 		};
@@ -406,8 +429,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Eken.GloomhavenMonsterDeck;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Release;
 		};

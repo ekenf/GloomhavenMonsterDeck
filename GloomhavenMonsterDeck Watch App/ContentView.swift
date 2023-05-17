@@ -8,14 +8,29 @@
 import SwiftUI
 
 struct ContentView: View {
+    var width = WKInterfaceDevice.current().screenBounds.width
+    @StateObject var deck = Deck()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        TabView(){
+            DeckView(deck: deck)
+                .ignoresSafeArea()
+                .background(
+                    Image("background")
+                        .resizable()
+                        .ignoresSafeArea()
+                )
+                .preferredColorScheme(.light)
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+            
+            MenuView(deck: deck)
+                .ignoresSafeArea()
+                .background(Color.black
+                )
+                .preferredColorScheme(.light)
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+            
+        }.tabViewStyle(PageTabViewStyle())
     }
 }
 
